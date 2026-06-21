@@ -402,6 +402,28 @@ export default function App() {
   return (
     <div className="min-h-screen bg-[#F3F4F6] dark:bg-slate-950 font-sans flex flex-col selection:bg-blue-100 transition-colors duration-300">
       
+      {/* Trial Task Verification Banner */}
+      <div className="bg-slate-900 text-slate-100 px-4 py-2 text-xs flex flex-col sm:flex-row items-center justify-between gap-3 border-b border-slate-950 shrink-0 select-none">
+        <div className="flex items-center gap-2">
+          <span className="inline-block w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse"></span>
+          <span className="font-semibold tracking-wide uppercase text-[10px] text-slate-405">Made by :</span>
+          <span className="font-bold text-white border-l border-slate-700 pl-2">Tohit Khan</span>
+          <a href="mailto:tohitk121@gmail.com" className="text-blue-400 hover:underline hover:text-blue-300 ml-1">tohitk121@gmail.com</a>
+        </div>
+        
+        <div className="flex items-center gap-3">
+          <span className="text-[10px] text-slate-400 hidden md:inline">Custom Software Developer Trial Task</span>
+          <a
+            href="https://digitalheroesco.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white font-bold tracking-tight rounded text-[11px] shadow-sm transition-all hover:scale-[1.02] cursor-pointer"
+          >
+            Built for Digital Heroes
+          </a>
+        </div>
+      </div>
+      
       {/* Dynamic Session Log Top Bar */}
       <header className="border-b border-gray-250 dark:border-slate-800 bg-white dark:bg-slate-900 shadow-sm sticky top-0 z-30 px-4 py-3 shrink-0">
         <div className="max-w-[1700px] mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
