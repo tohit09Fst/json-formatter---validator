@@ -1,0 +1,6 @@
+{
+  "name": "JSON Formatter & Validator",
+  "description": "An interactive, high-performance browser utility to validate, format, search, and visualize JSON structures.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
