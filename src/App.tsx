@@ -408,7 +408,7 @@ export default function App() {
           <span className="inline-block w-2.5 h-2.5 rounded-full bg-green-500 animate-pulse"></span>
           <span className="font-semibold tracking-wide uppercase text-[10px] text-slate-405">Made by :</span>
           <span className="font-bold text-white border-l border-slate-700 pl-2">Tohit Khan</span>
-          <a href="mailto:tohitk121@gmail.com" className="text-blue-400 hover:underline hover:text-blue-300 ml-1">tohitk121@gmail.com</a>
+          <a href="mailto:tohitk121@gmail.com" className="text-blue-400 hover:underline hover:text-blue-300 ml-1">tohit0333@gmail.com</a>
         </div>
         
         <div className="flex items-center gap-3">
